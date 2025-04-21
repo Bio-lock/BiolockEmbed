@@ -124,6 +124,7 @@ The `BiolockEmbed` constructor accepts an options object with the following para
 - **onError** (function, optional): Callback for any errors. Receives an error object or message.
 - **onDocumentFilesAutoDownloaded** (function, optional): Callback when files are auto-downloaded by the embed.
 - **onDocumentAttributes** (function, optional): Callback when document attributes are received.
+- **onCertifiedSenderPhoto** (function, optional): Callback when the document contain the certified photo of the sender. Receives the certified photo blob.
 - **onJsonToParent** (function, optional): Callback when a JSON is sent to the parent.
 - **onDocumentNotFound** (function, optional): Callback when a document is not found error occurs.
 - **onBiolinkNotCreated** (function, optional): Callback when a biolink is not created error occurs.
