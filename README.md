@@ -1,4 +1,4 @@
-# BioLockEmbed (Beta)
+# BioLockEmbed
 
 BioLockEmbed is a lightweight and user-friendly JavaScript library designed to simplify the integration of your BioLock iframe into a parent website. 
 
