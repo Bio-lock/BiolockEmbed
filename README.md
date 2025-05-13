@@ -47,8 +47,7 @@ Below is a basic example demonstrating how to embed a BioLock “upload” page 
       container: '#biolock-container',  // DOM selector for the container
       page: 'upload',                    // Page to display: 'upload', 'download', or 'createBiolink'
       displayed_title: 'Upload Your Document', // Custom title for the page
-      width: '100%',                     // Iframe width (can be a percentage or pixel value)
-      min_height: '400px',               // Minimum height of the iframe
+      style: "width: 500px;",              // Style of the BioLock iframe
       primary_color: 'FF5733',           // Primary theme color (hex code without #)
       feature_key: 'YOUR_FEATURE_KEY',   // API key required for upload and biolink creation
 
@@ -84,6 +83,8 @@ The `BiolockEmbed` constructor accepts an options object with the following para
 - **primary_color** (string, optional): Primary theme color (hex code string without '#') for the embedded UI.
 - **lng** (string, optional): Language code for the embedded UI (default is auto-detected).
 - **feature_key** (string, optional): Feature key or API key for BioLock (required for `upload` and `createBiolink` pages).
+- **display_capture_consent_if_needed** (boolean, optional, default: true): Capture the user’s consent if it has not already been obtained by the parent site.
+- **allow_third_party_cookies** (boolean, optional, default: true): Set to true to enable third-party cookies; set to false to disable them and suppress the consent popup for these cookies.
 
 #### Options for the Upload Page:
 - **displayed_data_section_title** (string, optional): Customizes the title of the data section.
