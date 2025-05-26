@@ -110,6 +110,7 @@ The `BiolockEmbed` constructor accepts an options object with the following para
 - **display_last_download** (boolean, optional, default: true): Displays the last time that the document has been downloaded.
 - **display_delete_button** (boolean, optional, default: true): Displays the delete button, allowing the user to delete the message after delivery.
 - **auto_files_download** (boolean, optional, default: false): Forces immediate file download after the selfie is checked. A `documentFilesAutoDownloaded` message is sent to the parent frame immediately after.
+- **video_blur_level** (number, optional, default: 0): Video blur level (0-100) for the embedded UI.
 
 #### Options for the CreateBiolink Page:
 - **displayed_title** (string, optional): Customizes the title of the download page.
