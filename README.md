@@ -85,6 +85,7 @@ The `BiolockEmbed` constructor accepts an options object with the following para
 - **feature_key** (string, optional): Feature key or API key for BioLock (required for `upload` and `createBiolink` pages).
 - **display_capture_consent_if_needed** (boolean, optional, default: true): Capture the user’s consent if it has not already been obtained by the parent site.
 - **allow_third_party_cookies** (boolean, optional, default: true): Set to true to enable third-party cookies; set to false to disable them and suppress the consent popup for these cookies.
+- **display_powered_by_biolock** (boolean, optional, default: true): Displays the "Powered by BioLock" message in the footer of the iframe.
 
 #### Options for the Upload Page:
 - **displayed_data_section_title** (string, optional): Customizes the title of the data section.
