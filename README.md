@@ -91,6 +91,7 @@ The `BiolockEmbed` constructor accepts an options object with the following para
 - **displayed_data_section_title** (string, optional): Customizes the title of the data section.
 - **displayed_recipient_section_title** (string, optional): Customizes the title of the recipient section.
 - **displayed_recipient_upload_message** (string, optional): Customize the text next to the recipient’s upload button.
+- **displayed_generate_link_button_text** (string, optional): Customizes the text of the button to generate a link.
 - **allow_files** (boolean, optional, default: true): Allows the user to add file(s).
 - **allow_multiple_files_upload** (boolean, optional, default: false): Allows the user to add more than one file.
 - **allow_message** (boolean, optional, default: true): Allows the user to add a message.
